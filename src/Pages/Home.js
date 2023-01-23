@@ -1,8 +1,10 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import Skills from '../Components/Skills'
 
 function Home() {
   return (
+    <>
     <section className="bg-light text-dark p-5  m-5 p-lg-0 text-center text-sm-start welcome">
         <Container>
             <div className="d-sm-flex align-items-center justify-content-between">
@@ -23,6 +25,8 @@ function Home() {
             </div>
         </Container>
     </section>
+    <Skills/>
+    </>
   )
 }
 
