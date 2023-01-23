@@ -1,0 +1,37 @@
+@import "./variables";
+@import "./body";
+@import "./home";
+@import "./portfolio";
+@import "./blog";
+@import './buttons';
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footercol{
+    padding: 3rem 0;
+    text-align: center;
+  }
+.socialcol li{
+    display: inline-block;
+  }
+.socialcol li +li{
+    padding-left: 2rem;
+  }
+.socialcol i{
+    max-width: 2rem;
+    max-height: 2rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+.copyrightCol{
+    padding: 2rem 0 0;
+    font-size: 1rem;
+  }
+.copyright p{
+    margin: 0;
+  }

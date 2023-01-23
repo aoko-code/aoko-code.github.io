@@ -1,0 +1,11 @@
+body{
+    background-color: $primaryColor;
+    font-family: $baseFont;
+    width: 100%;
+    &::before{
+        display: block;
+    }
+}
+.welcome{
+    padding: 200px;
+}
