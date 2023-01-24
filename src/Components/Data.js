@@ -1,17 +1,86 @@
+import sdlc from '../img/sdlc.jpg'
+import git from '../img/git.png'
+import web from '../img/web.png'
+import os from '../img/os.png'
+import db from '../img/db.png'
+import hcss from '../img/hcss.png'
+import instal from '../img/instal.png'
+import ms from '../img/ms.png'
+import network from '../img/network.png'
+import psql from '../img/psql.png'
+import py from '../img/py.png'
+import react from '../img/react.jpeg'
+import webpack from '../img/webpack.jpg'
+
 export const skillz = [
     {
         id: 1, 
-        image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fgit-scm.com%2Fdownloads%2Flogos&psig=AOvVaw1j8w49lvX9f33hTk0aFcnQ&ust=1674561963609000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjl3MnT3fwCFQAAAAAdAAAAABAD',
+        image:git,
         title: 'Version Control'
     },
     {
         id: 2, 
-        image:'./img/sdlc.jpg',
+        image:sdlc,
         title: 'Full Software Development Cycle'
     },
     {
         id: 3, 
-        image:'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fcontent%2Fimages%2F2022%2F07%2Fgit-github.png&imgrefurl=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fgit-and-github-the-basics%2F&tbnid=y-jxQNYn4wcOiM&vet=12ahUKEwjn1Z3J0938AhXSoicCHVgrC-0QMygIegUIARD0AQ..i&docid=6ELE7ruooVQ3UM&w=1200&h=674&q=Git&ved=2ahUKEwjn1Z3J0938AhXSoicCHVgrC-0QMygIegUIARD0AQ',
-        title: 'Version Control'
+        image:web,
+        title: 'Web Development'
+    },
+    {
+        id: 4, 
+        image:os,
+        title: 'Operating Systems'
+    },
+    {
+        id: 5, 
+        image:db,
+        title: 'Databases'
+    }
+]
+export const oskillz = [
+    {
+        id: 1, 
+        image:instal,
+        title: 'IT Policies | Procedure Instalation'
+    },
+    {
+        id: 2, 
+        image:network,
+        title: 'Networking'
+    },
+    {
+        id: 3, 
+        image:ms,
+        title: 'Microsoft Office Packages'
+    },
+    
+]
+export const wskillz = [
+    {
+        id: 1, 
+        image:py,
+        title: 'Python | Django'
+    },
+    {
+        id: 2, 
+        image:react,
+        title: 'JavaScript | ReactJs'
+    },
+    {
+        id: 3, 
+        image:webpack,
+        title: 'Webpack | NodeJs'
+    },
+    {
+        id: 4, 
+        image:psql,
+        title: 'PostgreSQL | MySQL'
+    },
+    {
+        id: 5, 
+        image:hcss,
+        title: 'HTML5 | CSS | SASS | SCSS'
     }
 ]

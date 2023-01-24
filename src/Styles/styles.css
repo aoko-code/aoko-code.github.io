@@ -189,6 +189,14 @@ body::before {
   color: #B08401;
 }
 
+.coreImg {
+  width: 100px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #683b2b;
+}
+
 a {
   color: #000000;
   text-decoration: none;

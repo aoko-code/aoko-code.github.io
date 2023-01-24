@@ -1,42 +1,75 @@
 import React from 'react'
-import { skillz } from './Data'
+import { Col, Row } from 'react-bootstrap';
+import { oskillz, skillz, wskillz } from './Data'
 
 function Skills() {
   return (
-    <section id="skills" class=" p-5 ">
-    <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-">
-            <div>
-                <h3>Speciality</h3>
+    <section id="skills" className=" p-5 ">
+    <div className="container">
+        <h2 className='text-center'>Skills</h2>
+        <Row>
+            <Col>
+                <h3>Core Skills</h3>
+
                 {skillz.map((item, itemIndex)=>{
                     const{id, image, title} = item;
                     return(
-                        <div class="card text-dark">
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <img src={image} alt={title}/>
+                        
+                        <div className="card text-dark">
+                            <div className="card-body">
+                                <div className="mb-3">
+                                    <img className='coreImg' src={image} alt={title}/>
                         </div>
-                        <h4 class="card-text">{title}</h4>
+                        <h6 className="card-text">{title}</h6>
 
                     </div>
                 
                 </div>
                     )
                 })}
+            </Col>
+            <Col>
+                <h3>Web Development</h3>
+
+                {wskillz.map((item, itemIndex)=>{
+                    const{id, image, title} = item;
+                    return(
+                        
+                        <div className="card text-dark">
+                            <div className="card-body">
+                                <div className="mb-3">
+                                    <img className='coreImg' src={image} alt={title}/>
+                        </div>
+                        <h6 className="card-text">{title}</h6>
+
+                    </div>
                 
-        
-              
-            </div>
-            <div>
-                <h2>Coding skills</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad alias commodi autem nobis unde sunt
-                    dolorum libero minima totam ut!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptas amet dolor accusantium
-                    exercitationem aspernatur odit dicta nulla aliquam sequi? Iste harum debitis voluptate beatae
-                    delectus, hic minima natus commodi?</p>
-                <button class="btn btn-sm mt-3 more">Read More</button>
-            </div>
-        </div>
+                </div>
+                    )
+                })}
+            </Col>
+            <Col>
+                <h3>Other Skills</h3>
+
+                {oskillz.map((item, itemIndex)=>{
+                    const{id, image, title} = item;
+                    return(
+                        
+                        <div className="card text-dark">
+                            <div className="card-body">
+                                <div className="mb-3">
+                                    <img className='coreImg' src={image} alt={title}/>
+                        </div>
+                        <h6 className="card-text">{title}</h6>
+
+                    </div>
+                
+                </div>
+                    )
+                })}
+            </Col>
+          
+        </Row>
     </div>
 </section>
   )
