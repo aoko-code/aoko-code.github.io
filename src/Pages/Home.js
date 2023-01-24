@@ -1,5 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import Certs from '../Components/Certs'
+import Post from '../Components/Post'
+import Project from '../Components/Project'
 import Skills from '../Components/Skills'
 
 function Home() {
@@ -26,6 +29,9 @@ function Home() {
         </Container>
     </section>
     <Skills/>
+    <Certs/>
+    <Project/>
+    <Post/>
     </>
   )
 }

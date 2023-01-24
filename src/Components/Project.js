@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Portfolio() {
+function Project() {
   return (
     <section id="projects" class="p-5 projects">
     <div class="container">
@@ -16,28 +16,23 @@ function Portfolio() {
                     </ul>
                 </div>
             </div>
-           
             <div class="row align-items-center pb-3">
                 <div class="col-md">
                     <div class="card bg-light text-dark">
                         <div class="card-body text-center">
-                            
+                            <img class="img-fluid project-img" src="" alt="pro 1"/>
                             <div class="project-info">
                                 <h3 class="card-title mb-3"><a href="">name</a></h3>
                                 <p class="card-text">
-                                    description
+                                   description
                                 </p>
-                                <a href="" class="btn more">
-                                    <img class="img-fluid project-img" src="" alt="pro 1"/>
-                                </a>
+                                <a href="" class="btn more">Learn More</a>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
             </div>
-
-           
+            
            
         </div>
     </div>
@@ -45,4 +40,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio
+export default Project
