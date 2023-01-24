@@ -1,7 +1,7 @@
 {
   "name": "rportfolio",
   "version": "0.1.0",
-  "homepage": "https://aoko-code.github.io/aoko-code.github.io",
+  "homepage": "https://aoko-code.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
