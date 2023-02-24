@@ -11,6 +11,7 @@ import psql from '../img/psql.png'
 import py from '../img/py.png'
 import react from '../img/react.jpeg'
 import webpack from '../img/webpack.jpg'
+import plp from '../img/plp.pdf'
 
 export const skillz = [
     {
@@ -83,4 +84,20 @@ export const wskillz = [
         image:hcss,
         title: 'HTML5 | CSS | SASS | SCSS'
     }
+]
+export const cert = [
+    {
+        id: 1, 
+        image:plp,
+        title: 'PowerLearn Project Certificate',
+        date: 'December, 2022',
+        institution: 'Powerlearn Project'
+    }, 
+    {
+        id: 2, 
+        image:plp,
+        title: 'PowerLearn Project Certificate',
+        date: 'December, 2022',
+        institution: 'Powerlearn Project'
+    },   
 ]

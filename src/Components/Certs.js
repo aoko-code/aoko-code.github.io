@@ -1,4 +1,5 @@
 import React from 'react'
+import { cert } from './Data'
 
 function Certs() {
   return (
@@ -6,26 +7,24 @@ function Certs() {
     <div class="container">
         <div class="row text-center">
             <h3 class="text-light">Certificates</h3>
-            
-            <div class="col-md">
+            {cert.map((item, itemIndex)=>{
+                const{id, image, title, date, institution} = item;
+                return(
+                      <div class="col-md">
                 <div class="card bg-light text-dark">
                     <div class="card-body text-center">
-                        <div class="h1 mb-3">
-                            <i class="bi bi-reception-4"></i>
-                        </div>
-                        <h3 class="card-title mb-3">title</h3>
+                        <img className='certImg' src={image} alt={title}/>
                         <ul class="cardopt">
-                            <li>date |</li>
-                            <li>lakehub</li>
+                            <li>{date} |</li>
+                            <li>{institution}</li>
                         </ul>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, assumenda.
-                        </p>
-                        <a href="#" class="btn more">Learn More</a>
 
                     </div>
                 </div>
             </div>
+                )
+            })}
+          
             
             
         </div>

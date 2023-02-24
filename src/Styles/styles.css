@@ -8,7 +8,7 @@ body::before {
 }
 
 .welcome {
-  padding: 200px;
+  margin-top: 80px;
 }
 
 .cardopt li {
