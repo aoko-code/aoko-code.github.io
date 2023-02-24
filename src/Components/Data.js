@@ -101,3 +101,11 @@ export const cert = [
         institution: 'Powerlearn Project'
     },   
 ]
+export const proj = [
+    {
+        id: 1,
+        image: py,
+        title:"ReMaS",
+        description: "lorem ipsum lorem ipsum lorem ipsum"
+    }
+]

@@ -1,4 +1,5 @@
 import React from 'react'
+import { proj } from './Data'
 
 function Project() {
   return (
@@ -17,20 +18,26 @@ function Project() {
                 </div>
             </div>
             <div class="row align-items-center pb-3">
-                <div class="col-md">
-                    <div class="card bg-light text-dark">
-                        <div class="card-body text-center">
-                            <img class="img-fluid project-img" src="" alt="pro 1"/>
-                            <div class="project-info">
-                                <h3 class="card-title mb-3"><a href="">name</a></h3>
-                                <p class="card-text">
-                                   description
-                                </p>
-                                <a href="" class="btn more">Learn More</a>
+                {proj.map((item, itemIndex)=>{
+                    const{id, image, title, description} = item;
+                    return(
+                        <div class="col-md">
+                        <div class="card bg-light text-dark">
+                            <div class="card-body text-center">
+                                <img class="img-fluid project-img" src={image} alt={title}/>
+                                <div class="project-info">
+                                    <h3 class="card-title mb-3"><a href="">{title}</a></h3>
+                                    <p class="card-text">
+                                       {description}
+                                    </p>
+                                    <a href="" class="btn more">Learn More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    )
+                })}
+               
             </div>
             
            
