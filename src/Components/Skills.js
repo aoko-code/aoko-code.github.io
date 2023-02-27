@@ -51,8 +51,8 @@ function Skills() {
             <Col>
                 <h3>Other Skills</h3>
 
-                {oskillz.map((item, itemIndex)=>{
-                    const{id, image, title} = item;
+                {oskillz.map((item)=>{
+                    const{image, title} = item;
                     return(
                         
                         <div className="card text-dark">

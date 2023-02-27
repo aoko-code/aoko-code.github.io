@@ -11,7 +11,8 @@ import psql from '../img/psql.png'
 import py from '../img/py.png'
 import react from '../img/react.jpeg'
 import webpack from '../img/webpack.jpg'
-import plp from '../img/plp.pdf'
+import plp from '../img/plp.JPG'
+import remas from '../img/remas.JPG'
 
 export const skillz = [
     {
@@ -96,15 +97,15 @@ export const cert = [
     {
         id: 2, 
         image:plp,
-        title: 'PowerLearn Project Certificate',
-        date: 'December, 2022',
-        institution: 'Powerlearn Project'
+        title: 'FemiDev Web Development Bootcamp Certificate',
+        date: 'September, 2022',
+        institution: 'Lakehub'
     },   
 ]
 export const proj = [
     {
         id: 1,
-        image: py,
+        image: remas,
         title:"ReMaS",
         description: "lorem ipsum lorem ipsum lorem ipsum"
     }

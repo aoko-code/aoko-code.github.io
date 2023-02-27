@@ -7,13 +7,13 @@ function Certs() {
     <div class="container">
         <div class="row text-center">
             <h3 class="text-light">Certificates</h3>
-            {cert.map((item, itemIndex)=>{
-                const{id, image, title, date, institution} = item;
+            {cert.map((item)=>{
+                const{image, title, date, institution} = item;
                 return(
                       <div class="col-md">
                 <div class="card bg-light text-dark">
                     <div class="card-body text-center">
-                        <img className='certImg' src={image} alt={title}/>
+                        <img className='coreImg' src={image} alt={title}/>
                         <ul class="cardopt">
                             <li>{date} |</li>
                             <li>{institution}</li>
