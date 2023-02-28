@@ -110,3 +110,13 @@ export const proj = [
         description: "lorem ipsum lorem ipsum lorem ipsum"
     }
 ]
+export const expe = [
+    {
+        id: 1,
+        image: remas,
+        title: "CPU INTERN",
+        org: "HEALTHIT",
+        period: "FEB - SEPTEMBER",
+        responsibility: ("Technical Support", "Delivery of Project Activities", "Provide Project reports")
+    }
+]

@@ -13,7 +13,7 @@ function Certs() {
                       <div class="col-md">
                 <div class="card bg-light text-dark">
                     <div class="card-body text-center">
-                        <img className='coreImg' src={image} alt={title}/>
+                        <img className='certImg' src={image} alt={title}/>
                         <ul class="cardopt">
                             <li>{date} |</li>
                             <li>{institution}</li>
