@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog() {
   return (
-    <section class="blog bg-dark text-light p-5">
+    <section class="blog bg-dark text-light p-5 welcome-section">
     <div class="container">
         <div class="row">
             <div class="col-md-9">

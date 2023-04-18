@@ -8,7 +8,7 @@ import Skills from '../Components/Skills'
 function Home() {
   return (
     <>
-    <section className="bg-light text-dark p-lg-0 text-center text-sm-start welcome">
+    <section className="bg-light text-dark p-lg-0 text-center text-sm-start welcome-section">
         <Container>
             <div className="d-sm-flex align-items-center justify-content-between">
                 <div>

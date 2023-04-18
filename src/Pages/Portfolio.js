@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <section id="projects" class="p-5 projects">
+    <section id="projects" class="p-5 projects welcome-section">
     <div class="container">
         <div class="row text-center pb-3">
             <h3>Projects</h3>

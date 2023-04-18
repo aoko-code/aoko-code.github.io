@@ -5,7 +5,7 @@ import { expe } from '../Components/Data'
 function Experience() {
   return (
     <>
-    <section className='experience'>
+    <section className='experience welcome-section'>
         <Container>
             <Row>
                 {expe.map((item)=>{
