@@ -17,7 +17,7 @@ body::before {
   position: relative;
 }
 
-.projects #project-filters li {
+#project-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0.5rem 1rem 0.8rem 1rem;
@@ -31,12 +31,12 @@ body::before {
   border-radius: 3px;
 }
 
-.projects #project-filters li:hover, .projects #project-filters li.filter-active {
+#project-filters li:hover, #project-filters li.filter-active {
   color: #151515;
   background: #B08401;
 }
 
-.projects #project-filters li:last-child {
+#project-filters li:last-child {
   margin-right: 0;
 }
 
@@ -197,7 +197,7 @@ img:hover {
   box-shadow: 0 0 2px 1px #683b2b;
 }
 
-.certImg {
+.certImg, .project-img {
   width: 300px;
 }
 

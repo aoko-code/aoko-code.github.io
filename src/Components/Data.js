@@ -102,13 +102,29 @@ export const cert = [
         institution: 'Lakehub'
     },   
 ]
-export const proj = [
+export const projects = [
     {
-        id: 1,
+        id: '1',
+        category: 'web',
         image: remas,
         title:"ReMaS",
         description: "lorem ipsum lorem ipsum lorem ipsum"
-    }
+    },
+    {
+        id: '2',
+        category: 'app',
+        image: remas,
+        title:"ReMaS",
+        description: "lorem ipsum lorem ipsum lorem ipsum"
+    },
+    {
+        id: '3',
+        category: 'app',
+        image: plp,
+        title:"ReMaS",
+        description: "lorem ipsum lorem ipsum lorem ipsum"
+    },
+   
 ]
 export const expe = [
     {

@@ -2,8 +2,8 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import Certs from '../Components/Certs'
 import Post from '../Components/Post'
-import Project from '../Components/Project'
 import Skills from '../Components/Skills'
+import Project from './Project'
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
                     <a href=""><button className="btn btn-lg more">Contact Me</button></a>
                     
                 </div>
-                {/* <img className="img-fluid w-50 d-none d-sm-block" src="" alt="pic"/> */}
+                <img className="img-fluid w-50 d-none d-sm-block" src="" alt="pic"/>
             </div>
         </Container>
     </section>

@@ -6,6 +6,8 @@ import Experience from './Pages/Experience'
 import Home from './Pages/Home'
 import Layout from './Pages/Layout'
 import Portfolio from './Pages/Portfolio'
+import Project from './Pages/Project'
+import Single_proj from './Pages/Single_proj'
 
 function Routing() {
   return (
@@ -17,6 +19,8 @@ function Routing() {
             <Route path='portfolio' element={<Portfolio/>}/>
             <Route path='contact' element={<Contact/>}/>
             <Route path='experience' element={<Experience/>}/>
+            <Route path='project' element={<Project/>}/>
+            <Route path='single_proj' element={<Single_proj/>}/>
         </Route>
     </Routes>
     </BrowserRouter>
