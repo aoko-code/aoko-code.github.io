@@ -1,28 +1,29 @@
 import React from 'react'
+import { blogs } from '../Components/Data'
+import RecentBlog from '../Components/RecentBlog'
 
 function Blog() {
   return (
-    <section class="blog bg-dark text-light p-5 welcome-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <div class="blog-posts">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="blog-post pb-5 mb-3">
-                                <img src="" alt=""/>
-                                <div class="blog-content mt-3">
-                                    <h2>Lorem, ipsum dolor.</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                        Voluptatum incidunt possimus consectetur fugit nostrum
-                                        animi omnis beatae! Natus aliquid vel, libero aut
-                                        illo consectetur, sequi ipsam magnam tenetur aliquam eos.</p>
-                                    <div class="tags-share">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="share">
-                                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href=""><i class="fa fa-facebook-f"></i></a></li>
+    <section className="blog bg-dark text-light p-5">
+    <div className="container">
+        <div className="row">
+        <h2 classNameName='text-center'>Blog Posts</h2><hr/>
+            <div className="col-md-9">
+                <div className="blog-posts">
+                    <div className="row">
+                        {blogs.map((post) => (
+                            <div className="col-md-12">
+                            <div className="blog-post pb-5 mb-3">
+                                <img src={post.image} alt=""/>
+                                <div className="blog-content mt-3">
+                                    <h2>{post.title}</h2>
+                                    <p>{post.content}</p>
+                                    <div className="tags-share">
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <ul className="more">
+                                                    <a href={post.link}>Read more</a>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -30,63 +31,32 @@ function Blog() {
                                 </div>
                             </div>
                         </div>
+                        ))}
+                        
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="side-bar">
-                    <div class="search pt-3">
+            <div className="col-md-3">
+                <div className="side-bar">
+                    <div className="search pt-3">
                         <fieldset>
-                            <input name="search" type="text" class="form-control text-light" id="search"
+                            <input name="search" type="text" className="form-control text-light" id="search"
                                 placeholder="Search..." required=""/>
                         </fieldset>
                     </div>
-                    <div class="recent-posts">
-                        <div class="sidebar-heading mt-2">
-                            <h2>Recent Posts</h2>
-                        </div>
-                        <ul>
-                            <li>
-                                <a href="/pages/blog.html">
-                                    <img src="" alt=""/>
-                                    <div class="text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>15 July 2022</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/pages/blog.html">
-                                    <img src="" alt=""/>
-                                    <div class="text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>15 July 2022</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/pages/blog.html">
-                                    <img src="" alt=""/>
-                                    <div class="text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>15 July 2022</span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="categories">
-                        <div class="sidebar-heading">
+                    <RecentBlog/>
+                    {/* <div className="categories">
+                        <div className="sidebar-heading">
                             <h2>Categories</h2>
                         </div>
-                        {/* <!-- add chevron icon --> */}
+                        
                         <ul>
                             <li><a href="#">Lifestyle (7)</a></li>
                             <li><a href="#">Branding (9)</a></li>
                             <li><a href="#">Nature (14)</a></li>
                             
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

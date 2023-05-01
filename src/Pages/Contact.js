@@ -33,13 +33,13 @@ const Contact = () => {
     });
   }
   return (
-    <section class="contact p-5" id="contact">
+    <section className="contact p-5" id="contact">
         <h1>Contact Form</h1><hr/>
-    <div className="contactFormWrapper">
+    <div classNameName="contactFormWrapper">
         <h3>Any comments, Suggestions or Questions are highly appreciated</h3>
-      <div className="formcontact">
+      <div classNameName="formcontact">
         {submit ? (
-          <div className="afterForm">Thanks, will get back to you soon</div>
+          <div classNameName="afterForm">Thanks, will get back to you soon</div>
         ) : (
           <form onSubmit={handleSubmit} target="_self">
             <fieldset>
@@ -79,51 +79,17 @@ const Contact = () => {
               ></textarea>
             </fieldset>
 
-            <button type="submit" className="more">Send</button>
+            <button type="submit" classNameName="more">Send</button>
           </form>
         )}
       </div>
     </div>
+    
     </section>
   );
 };
 
 
-
-    {/* <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-            <form action="https://docs.google.com/forms/d/e/1FAIpQ…vgk7OQ/formResponse">
-<textarea … aria-label="Message" name="entry.1249636002">
-<input type="text" … aria-label="Email:" name="entry.1157005189" > 
-                <form id="contact-form" action="" method="post">
-                    
-                    <legend>Contact Me</legend>
-                    <div class="col-md-12">
-                        <label for="name">Name</label>
-                        
-            
-                        <label for="email">Email</label>
-                        
-            
-                        <label for="subject">Message</label>
-                        
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <input type="submit" class="bg-dark text-light control" name="send message" value="send Message"/>
-                    </div>
-
-
-                </form>
-            </div>
-            <div class="col-md-6">
-                <div class="contact-image">
-                    <img src="" alt=""/>
-                </div>
-            </div>
-        </div>
-    </div> */}
 
 
 export default Contact

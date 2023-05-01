@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { projects } from '../Components/Data'
-import { useParams } from 'react-router-dom'
+
 
 function Single_proj() {
-  const {projectId} = useParams()
+  const {projectId, setProjectId} = useState(null)
+  // const handleProjectClick = (id) => {
+  //   setProjectId(id)
+  // }
   const project = projects.find((project) => project.id === projectId)
   const{image, title, description} = project;
   return (
-    <div className='single-proj'>
+    <div classNameName='single-proj'>
         <Container>
             <Row>
-                <Col className='proj-head'>
+                <Col classNameName='proj-head'>
                     <h2>{title}</h2>
                 </Col>
                 <Col>

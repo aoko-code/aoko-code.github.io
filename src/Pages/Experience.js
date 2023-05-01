@@ -5,7 +5,7 @@ import { expe } from '../Components/Data'
 function Experience() {
   return (
     <>
-    <section className='experience welcome-section'>
+    <section classNameName='experience welcome-section'>
         <Container>
             <Row>
                 {expe.map((item)=>{
@@ -13,7 +13,7 @@ function Experience() {
                     return(
                         <>
                         <Col>
-                        <img className='certImg' src={image} alt={title}/>
+                        <img classNameName='certImg' src={image} alt={title}/>
                         </Col>
                         <Col>
                         

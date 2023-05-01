@@ -126,6 +126,32 @@ export const projects = [
     },
    
 ]
+export const blogs = [
+    {
+        id: '1',
+        title:"ReMaS",
+        content: "lorem ipsum lorem ipsum lorem ipsum",
+        image: plp,
+        date: '1st May 2023',
+        link: '/'
+    },
+    {
+        id: '2',
+        title:"ReMaS",
+        content: "lorem ipsum lorem ipsum lorem ipsum",
+        image: plp,
+        date: '1st May 2023',
+        link: '/'
+    },
+    {
+        id: '3',
+        title:"ReMaS",
+        content: "lorem ipsum lorem ipsum lorem ipsum",
+        image: plp,
+        date: '1st May 2023',
+        link: '/'
+    }
+]
 export const expe = [
     {
         id: 1,
