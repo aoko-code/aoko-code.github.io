@@ -25,6 +25,7 @@ export const skillz = [
         image:sdlc,
         title: 'Full Software Development Cycle'
     },
+    
     {
         id: 3, 
         image:web,
@@ -39,7 +40,8 @@ export const skillz = [
         id: 5, 
         image:db,
         title: 'Databases'
-    }
+    },
+    
 ]
 export const oskillz = [
     {
@@ -108,21 +110,21 @@ export const projects = [
         category: 'web',
         image: remas,
         title:"ReMaS",
-        description: "lorem ipsum lorem ipsum lorem ipsum"
+        description: "Learning resources platform"
     },
     {
         id: '2',
         category: 'app',
         image: remas,
-        title:"ReMaS",
-        description: "lorem ipsum lorem ipsum lorem ipsum"
+        title:"Budget App",
+        description: "Monthly Budgeting Application"
     },
     {
         id: '3',
-        category: 'app',
+        category: 'web',
         image: plp,
-        title:"ReMaS",
-        description: "lorem ipsum lorem ipsum lorem ipsum"
+        title:"Radio Web Application ",
+        description: "Web Application For a community Radio"
     },
    
 ]
