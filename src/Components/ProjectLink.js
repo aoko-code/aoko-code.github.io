@@ -7,7 +7,7 @@ function ProjectLink({projectId, onClick}){
         onClick(projectId)
     }
     return(
-        <Link classNameName='btn more' onClick={handleClick}>Visit site</Link>
+        <Link className='btn more' onClick={handleClick}>Visit site</Link>
     )
 }
 

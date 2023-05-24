@@ -4,7 +4,7 @@ import RecentBlog from '../Components/RecentBlog'
 
 function Blog() {
   return (
-    <section className="blog bg-dark text-light p-5">
+    <section className="blog bg-dark text-light p-5 welcome-section">
     <div className="container">
         <div className="row">
         <h2 classNameName='text-center'>Blog Posts</h2><hr/>

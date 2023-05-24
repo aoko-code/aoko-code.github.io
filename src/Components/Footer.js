@@ -1,17 +1,15 @@
 import React from 'react'
 import { IconName } from "react-icons/ai";
+import { SocialLinks } from './SocialLinks';
 function Footer() {
   return (
     <footer>
-    <div classNameName="footercol">
-        <div classNameName="container">
+    <div className="footercol">
+        <div className="container">
             <hr/>
-            <ul classNameName="socialcol">
-                <li><a href="" aria-label="twitter"><i classNameName="fa fa-twitter"></i></a></li>
-                <li><a href="" aria-label="facebook"><i classNameName="fa fa-facebook-f"></i></a></li>
-                <li><a href="" aria-label="linkedin"><i classNameName="fa fa-linkedin-in"></i></a></li>
-            </ul>
-            <div classNameName="copyrightCol">
+            <SocialLinks/>
+          
+            <div className="copyrightCol">
                 <p>Copyright ©2023 All rights reserved. Designed by <a href="#">Cynthia Aoko</a></p>
             </div>
         </div>

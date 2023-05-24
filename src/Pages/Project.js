@@ -16,17 +16,17 @@ function Project() {
     <>
     <ProjMenu/>
             
-            <Row classNameName="align-items-center pb-3">
+            <Row className="align-items-center pb-3">
                 {projects.map((project)=>{
                     const{id, image, title, description} = project;
                     return(
                         <div className="col-md">
-                        <div classNameName="card bg-light text-dark">
-                            <div classNameName="card-body text-center">
-                                <img classNameName="img-fluid project-img" src={image} alt={title}/>
-                                <div classNameName="project-info">
-                                    <h3 classNameName="card-title mb-3"><a href="">{title}</a></h3>
-                                    <p classNameName="card-text">
+                        <div className="card bg-light text-dark">
+                            <div className="card-body text-center">
+                                <img className="img-fluid project-img" src={image} alt={title}/>
+                                <div className="project-info">
+                                    <h3 className="card-title mb-3"><a href="">{title}</a></h3>
+                                    <p className="card-text">
                                        {description}
                                     </p>
                                     <ProjectLink projectId={id} onClick={handleProjectClick}/>

@@ -4,9 +4,9 @@ import { oskillz, skillz, wskillz } from './Data'
 
 function Skills() {
   return (
-    <section id="skills" classNameName=" p-5 ">
-    <div classNameName="container">
-        <h2 classNameName='text-center'>Skills</h2><hr/>
+    <section id="skills" className=" p-5 ">
+    <div className="container">
+        <h2 className='text-center'>Skills</h2><hr/>
         <Row>
             <Col>
                 <h3>Core Skills</h3>
@@ -15,12 +15,12 @@ function Skills() {
                     const{id, image, title} = item;
                     return(
                         
-                        <div classNameName="card text-dark">
-                            <div classNameName="card-body">
-                                <div classNameName="mb-3">
-                                    <img classNameName='coreImg' src={image} alt={title}/>
+                        <div className="card text-dark">
+                            <div className="card-body">
+                                <div className="mb-3">
+                                    <img className='coreImg' src={image} alt={title}/>
                         </div>
-                        <h6 classNameName="card-text">{title}</h6>
+                        <h6 className="card-text">{title}</h6>
 
                     </div>
                 
@@ -35,12 +35,12 @@ function Skills() {
                     const{id, image, title} = item;
                     return(
                         
-                        <div classNameName="card text-dark">
-                            <div classNameName="card-body">
-                                <div classNameName="mb-3">
-                                    <img classNameName='coreImg' src={image} alt={title}/>
+                        <div className="card text-dark">
+                            <div className="card-body">
+                                <div className="mb-3">
+                                    <img className='coreImg' src={image} alt={title}/>
                         </div>
-                        <h6 classNameName="card-text">{title}</h6>
+                        <h6 className="card-text">{title}</h6>
 
                     </div>
                 
@@ -55,12 +55,12 @@ function Skills() {
                     const{image, title} = item;
                     return(
                         
-                        <div classNameName="card text-dark">
-                            <div classNameName="card-body">
-                                <div classNameName="mb-3">
-                                    <img classNameName='coreImg' src={image} alt={title}/>
+                        <div className="card text-dark">
+                            <div className="card-body">
+                                <div className="mb-3">
+                                    <img className='coreImg' src={image} alt={title}/>
                         </div>
-                        <h6 classNameName="card-text">{title}</h6>
+                        <h6 className="card-text">{title}</h6>
 
                     </div>
                 
