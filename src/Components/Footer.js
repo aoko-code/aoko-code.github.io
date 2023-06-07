@@ -1,5 +1,4 @@
 import React from 'react'
-import { IconName } from "react-icons/ai";
 import { SocialLinks } from './SocialLinks';
 function Footer() {
   return (

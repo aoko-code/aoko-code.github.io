@@ -114,7 +114,7 @@ export const projects = [
     },
     {
         id: '2',
-        category: 'app',
+        category: 'web',
         image: remas,
         title:"Budget App",
         description: "Monthly Budgeting Application"
