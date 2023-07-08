@@ -23,17 +23,18 @@ function Project() {
             
             <Row className="align-items-center pb-3">
                 {filteredProjects.map((project => {
-                    const{id, image, title, description} = project;
+                    const{id, image, title, description, link} = project;
                     return(
-                        <div key={project.id} className="col-md">
+                        <div key={id} className="col-md">
                         <div className="card bg-light text-dark">
                             <div className="card-body text-center">
                                 <img className="img-fluid project-img" src={image} alt={title}/>
                                 <div className="project-info">
-                                    <h3 className="card-title mb-3"><a href="">{title}</a></h3>
+                                    <h3 className="card-title mb-3">{title}</h3>
                                     <p className="card-text">
                                        {description}
                                     </p>
+                                    <a href={link} className='btn more'>Visit Site</a>
                                     {/* <ProjectLink projectId={id} onClick={handleProjectClick}/>
                                     
                                      {projectId && <ProjectDisplay projectId={id}/>} */}

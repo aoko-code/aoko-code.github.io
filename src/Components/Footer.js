@@ -9,7 +9,7 @@ function Footer() {
             <SocialLinks/>
           
             <div className="copyrightCol">
-                <p>Copyright ©2023 All rights reserved. Designed by <a href="#">Cynthia Aoko</a></p>
+                <p>Copyright ©2023 All rights reserved. Designed by <span>Cynthia Aoko</span></p>
             </div>
         </div>
     </div>

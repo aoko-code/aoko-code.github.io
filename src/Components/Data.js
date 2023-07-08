@@ -96,13 +96,13 @@ export const cert = [
         date: 'December, 2022',
         institution: 'Powerlearn Project'
     }, 
-    {
-        id: 2, 
-        image:plp,
-        title: 'FemiDev Web Development Bootcamp Certificate',
-        date: 'September, 2022',
-        institution: 'Lakehub'
-    },   
+    // {
+    //     id: 2, 
+    //     image:plp,
+    //     title: 'FemiDev Web Development Bootcamp Certificate',
+    //     date: 'September, 2022',
+    //     institution: 'Lakehub'
+    // },   
 ]
 export const projects = [
     {
@@ -110,22 +110,9 @@ export const projects = [
         category: 'web',
         image: remas,
         title:"ReMaS",
-        description: "Learning resources platform"
-    },
-    {
-        id: '2',
-        category: 'web',
-        image: remas,
-        title:"Budget App",
-        description: "Monthly Budgeting Application"
-    },
-    {
-        id: '3',
-        category: 'web',
-        image: plp,
-        title:"Radio Web Application ",
-        description: "Web Application For a community Radio"
-    },
+        description: "Learning resources platform",
+        link: ''
+    }
    
 ]
 export const blogs = [
@@ -136,23 +123,8 @@ export const blogs = [
         image: plp,
         date: '1st May 2023',
         link: '/'
-    },
-    {
-        id: '2',
-        title:"ReMaS",
-        content: "lorem ipsum lorem ipsum lorem ipsum",
-        image: plp,
-        date: '1st May 2023',
-        link: '/'
-    },
-    {
-        id: '3',
-        title:"ReMaS",
-        content: "lorem ipsum lorem ipsum lorem ipsum",
-        image: plp,
-        date: '1st May 2023',
-        link: '/'
     }
+
 ]
 export const expe = [
     {
