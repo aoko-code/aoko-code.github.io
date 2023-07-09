@@ -13,6 +13,7 @@ import react from '../img/react.jpeg'
 import webpack from '../img/webpack.jpg'
 import plp from '../img/plp.JPG'
 import remas from '../img/remas.JPG'
+import bios from '../img/bios.jpeg'
 
 export const skillz = [
     {
@@ -118,11 +119,11 @@ export const projects = [
 export const blogs = [
     {
         id: '1',
-        title:"ReMaS",
-        content: "lorem ipsum lorem ipsum lorem ipsum",
-        image: plp,
-        date: '1st May 2023',
-        link: '/'
+        title:"BIOS AND UEFI",
+        content: "Brief description of BIOS and UEFI boot modes",
+        image: bios,
+        date: '9th July 2023',
+        link: 'https://medium.com/@khamcynthia/bios-and-uefi-97e3daf266ca'
     }
 
 ]
