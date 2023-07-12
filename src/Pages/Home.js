@@ -5,28 +5,29 @@ import Post from '../Components/Post'
 import Skills from '../Components/Skills'
 import Project from './Project'
 import { SocialLinks } from '../Components/SocialLinks'
+import { bio } from '../Components/Data'
 
 function Home() {
   return (
     <>
     <section className="bg-light text-dark p-lg-0 text-center text-sm-start welcome-section">
         <Container>
+          {bio.map((id) =>(
             <div className="d-sm-flex align-items-center justify-content-between">
                 <div>
-                    <h1>Hi, I'm Cynthia Aoko
+                    <h1>Hi, I'm {id.name}
                          </h1>
-                    <h2>
-                            Web Developer
-                        
+                    <h2>{id.profession}                    
                     </h2>
-                    <p className="lead"> Am a Computer Science graduate from Rongo University.  While waiting to graduate I had been doing various web development projects and taking various online courses. I have undergone an extensive Web Development bootcamp with Lakehub-Kisumu through the Femidevs program.  I wish to pursue a career in Software Development.</p>
+                    <p className="lead">{id.description}</p>
 
-                    <a href=""><button className="btn btn-lg more">My CV</button></a>
+                    <a href={id.cvLink}><button className="btn btn-lg more">My CV</button></a>
                     <a href="/Contact"><button className="btn btn-lg more">Contact Me</button></a>
                     
                 </div>
-                <img className="img-fluid w-50 d-none d-sm-block" src="" alt="pic"/>
+                <img className="img-fluid w-50 d-none d-sm-block" src={id.pic} alt="pic"/>
             </div>
+            ))}
             <SocialLinks/>
         </Container>
     </section>

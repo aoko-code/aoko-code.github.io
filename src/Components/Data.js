@@ -137,3 +137,12 @@ export const expe = [
         responsibility: ("Technical Support", "Delivery of Project Activities", "Provide Project reports")
     }
 ]
+export const bio =[
+    {
+        name: 'Cynthia Aoko',
+        profession: 'Data analyst, Web Developer',
+        description:'Am a detail-oriented and highly motivated individual with an academic background in Computer Science. This has equipped me with a solid foundation in data analysis and programming. I am a collaborative team player that thrives in a work environment that encourages knowledge-sharing and innovation. I would be thrilled to discuss my qualifications further and how I can add value to your team ',
+        cvLink: 'https://docs.google.com/document/d/1rzJj_1FWGwNA3YuxaesYj-6TvtcYogQY/edit?usp=sharing&ouid=103497638208663202641&rtpof=true&sd=true',
+        pic: '/',
+    }
+]
