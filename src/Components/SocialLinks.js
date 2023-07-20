@@ -8,7 +8,7 @@ export const SocialLinks = () => {
         <a href='https://github.com/aoko-code' target='_blank' rel='noopener noreferrer'>
             <FaGithub/>
         </a>
-        <a href='https://linkedin.com/in/cynthia-aoko ' target='_blank' rel='noopener noreferrer'>
+        <a href='https://linkedin.com/in/cynthia-aoko' target='_blank' rel='noopener noreferrer'>
             <FaLinkedin/>
         </a>
         <a href='https://twitter.com/AokoCynthia' target='_blank' rel='noopener noreferrer'>

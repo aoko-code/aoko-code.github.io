@@ -35,13 +35,13 @@ const Contact = () => {
   return (
     <section className="contact p-5" id="contact">
         <h1>Contact Form</h1><hr/>
-    <div className="contactFormWrapper">
+    <div className="contactFormWrapper ">
         <h3>Any comments, Suggestions or Questions are highly appreciated</h3>
       <div className="formcontact">
         {submit ? (
           <div className="afterForm">Thanks, will get back to you soon</div>
         ) : (
-          <form onSubmit={handleSubmit} target="_self">
+          <form onSubmit={handleSubmit} target="_self" className="">
             <fieldset>
               <label htmlFor="entry.833173952">Name:</label>
               <input

@@ -23,12 +23,12 @@ function Home() {
 
                     <a href={id.cvLink}><button className="btn btn-lg more">My CV</button></a>
                     <a href="/Contact"><button className="btn btn-lg more">Contact Me</button></a>
-                    
+                    <SocialLinks/>
                 </div>
-                <img className="img-fluid w-50 d-none d-sm-block" src={id.pic} alt="pic"/>
+                <img className="img-fluid w-50 d-none d-sm-block cynthia" src={id.pic} alt="pic"/>
             </div>
             ))}
-            <SocialLinks/>
+           
         </Container>
     </section>
     <Skills/>
