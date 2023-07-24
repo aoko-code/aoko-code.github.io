@@ -21,7 +21,7 @@ function Home() {
                     </h2>
                     <p className="lead">{id.description}</p>
 
-                    <a href={id.cvLink}><button className="btn btn-lg more">My CV</button></a>
+                    <a href={id.cvLink} target='_blank'><button className="btn btn-lg more">My CV</button></a>
                     <a href="/Contact"><button className="btn btn-lg more">Contact Me</button></a>
                     <SocialLinks/>
                 </div>
