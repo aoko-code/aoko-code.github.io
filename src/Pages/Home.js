@@ -6,6 +6,7 @@ import Skills from '../Components/Skills'
 import Project from './Project'
 import { SocialLinks } from '../Components/SocialLinks'
 import { bio } from '../Components/Data'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -22,8 +23,10 @@ function Home() {
                     <p className="lead">{id.description}</p>
 
                     <a href={id.cvLink} target='_blank'><button className="btn btn-lg more">My CV</button></a>
-                    <a href="/contact"><button className="btn btn-lg more">Contact Me</button></a>
+                    <Link className='btn btn-lg more' to="/contact">Contact Me</Link>
+                    {/* <a href="/contact"><button className="btn btn-lg more">Contact Me</button></a> */}
                     <SocialLinks/>
+                    
                 </div>
                 <img className="img-fluid w-50 d-none d-sm-block cynthia" src={id.pic} alt="pic"/>
             </div>
