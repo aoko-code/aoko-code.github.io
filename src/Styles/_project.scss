@@ -1,0 +1,17 @@
+.project-menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.project-menu button{
+    color: $primaryDarkColor;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.project-menu button:hover, .project-menu button.active{
+    color: $primaryDarkColor;
+    background-color: $secondaryColor;
+}

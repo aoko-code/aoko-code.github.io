@@ -1,0 +1,25 @@
+.cardopt li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+
+}
+
+ #project-filters button{
+    padding: 0.5rem 1rem 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $primaryDarkColor;
+    margin-top: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+  }
+  #project-filters:hover,  #project-filters.active {
+    color: #151515;
+    background: #B08401;
+  }
+  #project-filters:last-child {
+    margin-right: 0;
+  }

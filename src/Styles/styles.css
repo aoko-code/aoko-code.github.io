@@ -1,0 +1,294 @@
+body {
+  background-color: #DED1BD;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  width: 100%;
+}
+body::before {
+  display: block;
+}
+
+.welcome-section {
+  margin-top: 80px;
+}
+
+.cardopt li {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+#project-filters button {
+  padding: 0.5rem 1rem 0.8rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #683b2b;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+#project-filters:hover, #project-filters.active {
+  color: #151515;
+  background: #B08401;
+}
+
+#project-filters:last-child {
+  margin-right: 0;
+}
+
+.breadcrumbs {
+  padding: 15px 0;
+  background: whitesmoke;
+  min-height: 40px;
+  margin-top: 74px;
+}
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #2f2f2f;
+  content: "/";
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 68px;
+  }
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+.blog-posts {
+  margin-right: 2rem;
+}
+
+.blog-post {
+  border-bottom: 4px solid #B08401;
+}
+
+.blog-post img {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.blog-post .blog-content h2 {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.blog-post .blog-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.blog-post .blog-content ul {
+  list-style: none;
+}
+
+.blog .search input {
+  background-color: #B08401;
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  border: none;
+}
+
+.blog .sidebar-heading {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #B08401;
+}
+
+.side-bar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.side-bar ul li {
+  margin-bottom: 1rem;
+}
+
+.side-bar ul a {
+  text-decoration: none;
+}
+
+.side-bar ul a:hover {
+  background-color: #683b2b;
+}
+
+.recent-posts ul li img {
+  display: inline-block;
+  max-width: 100%;
+  margin-right: 1rem;
+}
+
+.recent-posts ul li .text {
+  display: inline-block;
+}
+
+.recent-posts ul li h6 {
+  margin-top: 5px;
+  padding-top: 0;
+  margin-top: 0;
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.recent-posts ul li span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 200;
+  color: #D49E8D;
+}
+
+.categories a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 200;
+  color: #D49E8D;
+}
+
+.more {
+  background-color: #D49E8D;
+}
+
+.more:hover {
+  color: #B08401;
+}
+
+.coreImg {
+  width: 100px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #683b2b;
+}
+
+.certImg, .project-img {
+  width: 300px;
+}
+
+.contact h3 {
+  font-size: 1.2rem;
+  color: #683b2b;
+}
+
+.contactFormWrapper {
+  width: 30rem;
+  border-radius: 1rem;
+  margin: auto;
+  background-color: #FAF6F2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.formcontact {
+  padding: 1rem;
+}
+
+.formcontact input, textarea {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.formcontact fieldset {
+  margin-bottom: 0.5rem;
+}
+
+.formcontact label {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.afterForm {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #B08401;
+  letter-spacing: 0.2rem;
+}
+
+.project-menu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.project-menu button {
+  color: #683b2b;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.project-menu button:hover, .project-menu button.active {
+  color: #683b2b;
+  background-color: #B08401;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footercol {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.socialcol li {
+  display: inline-block;
+}
+
+.socialcol li + li {
+  padding-left: 2rem;
+}
+
+.socialcol i {
+  max-width: 2rem;
+  max-height: 2rem;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.copyrightCol {
+  padding: 2rem 0 0;
+  font-size: 1rem;
+}
+
+.copyright p {
+  margin: 0;
+}/*# sourceMappingURL=styles.css.map */

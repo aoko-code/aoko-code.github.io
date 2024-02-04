@@ -1,0 +1,38 @@
+
+
+.contact h3{
+    font-size: 1.2rem;
+    color: $primaryDarkColor;
+}
+.contactFormWrapper {
+    width: 30rem;
+    border-radius: 1rem;
+    margin: auto;
+    background-color:  $primaryWhite;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; 
+}
+.formcontact {
+        padding: 1rem;
+}
+.formcontact input ,textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+   
+  } 
+.formcontact fieldset{
+    margin-bottom: 0.5rem;
+}  
+.formcontact label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+.afterForm {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: $secondaryColor;
+    letter-spacing: 0.2rem;
+   }
+
+
