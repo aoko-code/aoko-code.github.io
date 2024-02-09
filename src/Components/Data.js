@@ -20,6 +20,7 @@ import lakehub from '../img/lakehub.png'
 import api from '../img/api.jpeg'
 import dvp from '../img/dvp.jpeg'
 import cyber from '../img/cyber.jpg'
+import keylogger from '../img/keylogger.jpg'
 
 export const skillz = [
     {
@@ -140,6 +141,14 @@ export const projects = [
         title:"Surveillance EMR Integration",
         description: "Project done to incorporate surveillance data collection, flagging and reporting processes within the Medboss system.",
         link: 'https://github.com/aoko-code/API-'
+    },
+    {
+        id: '4',
+        category: 'cyber',
+        image: keylogger,
+        title:"Keylogger using Python",
+        description: "Keylogger that records every keystroke made by a user on a computer or mobile device",
+        link: 'https://github.com/aoko-code/keyloggerPy'
     }
    
 ]

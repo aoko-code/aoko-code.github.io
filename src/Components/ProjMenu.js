@@ -16,6 +16,11 @@ export const categories=[
     name: 'API',
     value: 'api'
 },
+{
+  name: 'Cyber Security',
+  value: 'cyber'
+},
+
 ];
 
 const ProjMenu = ({ activeCategory, setActiveCategory, categories}) => {
