@@ -194,7 +194,7 @@ export const bio =[
         name: 'Cynthia Aoko',
         profession: 'Software Developer, Security Analyst, Web Developer',
         description:'Am a detail-oriented and highly motivated individual with an academic background in Computer Science. This has equipped me with a solid foundation in data analysis and programming. I am a collaborative team player that thrives in a work environment that encourages knowledge-sharing and innovation. I would be thrilled to discuss my qualifications further and how I can add value to your team. ',
-        cvLink: 'https://drive.google.com/file/d/1_kbOdoX1I8NcUHzvJbhbYOdKM2FUkuZU/view?usp=sharing',
+        cvLink: 'https://drive.google.com/file/d/1NCjuiZ_mByTHBd4XTp16en2DSuQbqZra/view?usp=sharing',
         pic: cynthia,
     }
 ]
