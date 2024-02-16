@@ -150,22 +150,8 @@ export const projects = [
         description: "Keylogger that records every keystroke made by a user on a computer or mobile device",
         link: 'https://github.com/aoko-code/keyloggerPy'
     },
-    {
-        id: '5',
-        category: 'cyber',
-        image: keylogger,
-        title:"Keylogger using Python",
-        description: "Keylogger that records every keystroke made by a user on a computer or mobile device",
-        link: 'https://github.com/aoko-code/keyloggerPy'
-    },
-    {
-        id: '6',
-        category: 'cyber',
-        image: keylogger,
-        title:"Keylogger using Python",
-        description: "Keylogger that records every keystroke made by a user on a computer or mobile device",
-        link: 'https://github.com/aoko-code/keyloggerPy'
-    },
+
+
    
 ]
 export const blogs = [
