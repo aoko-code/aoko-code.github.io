@@ -12,6 +12,14 @@ export const categories=[
       name: 'UI/UX Design',
       value: 'design'
   },
+  {
+    name: 'Cyber Security',
+    value: 'cyber'
+  },
+  {
+    name: 'DevOps',
+    value: 'devops'
+  },
 ];
 
 const ProjMenu = ({ activeCategory, setActiveCategory, categories}) => {
