@@ -11,10 +11,10 @@ import psql from '../img/psql.png'
 import py from '../img/py.png'
 import react from '../img/react.jpeg'
 import webpack from '../img/webpack.jpg'
-import plp from '../img/plp.JPG'
-import remas from '../img/remas.JPG'
+import plp from '../img/plp.jpeg'
+import remas from '../img/remas.jpeg'
 import bios from '../img/bios.jpeg'
-import calc from '../img/calc.JPG'
+import calc from '../img/calc.jpeg'
 import cynthia from '../img/cynthia.jpg'
 import lakehub from '../img/lakehub.png'
 
@@ -111,6 +111,14 @@ export const cert = [
 export const projects = [
     {
         id: '1',
+        category: 'cyber',
+        image: remas,
+        title:"Text Encryption App (AES)",
+        description: "This is a web application that encrypts text and decrypts encrypted text using the AES algorithm",
+        link: 'https://github.com/aoko-code/Tect-encryption'
+    },
+    {
+        id: '1',
         category: 'web',
         image: remas,
         title:"ReMaS",
@@ -144,14 +152,14 @@ export const expe = [
         image: remas,
         title: "CPU INTERN",
         org: "HEALTHIT",
-        period: "FEB - SEPTEMBER",
+        period: "February 2023 - January 2024",
         responsibility: ("Technical Support", "Delivery of Project Activities", "Provide Project reports")
     }
 ]
 export const bio =[
     {
         name: 'Cynthia Aoko',
-        profession: 'Data analyst, Web Developer',
+        profession: 'Software Developer',
         description:'Am a detail-oriented and highly motivated individual with an academic background in Computer Science. This has equipped me with a solid foundation in data analysis and programming. I am a collaborative team player that thrives in a work environment that encourages knowledge-sharing and innovation. I would be thrilled to discuss my qualifications further and how I can add value to your team. ',
         cvLink: 'https://docs.google.com/document/d/1rzJj_1FWGwNA3YuxaesYj-6TvtcYogQY/edit?usp=sharing&ouid=103497638208663202641&rtpof=true&sd=true',
         pic: cynthia,
